@@ -1,0 +1,36 @@
+body{
+	background-image: url(../img/background-2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: arial, helvetica, sans-serif;
+}
+
+#headshot{
+	border: solid 2px #333f78;
+}
+
+h1{
+	text-shadow: 1px 1px 3px #0f0f0f;
+}
+
+p, ol, ul{
+	font-size: 14px
+}
+
+.quote{
+	background-color: antiquewhite;
+	opacity: .5;
+display: inline;
+}
+
+
+
+.container {
+	background-color: antiquewhite;
+	opacity: .95;
+	/*figure out how to pinch in and center div box - can't have width and margins together?*/
+	margin: 20px 80px 20px 80px;
+	padding: 10px 20px 10px 20px;
+	border: solid 2px #333f78;
+}
+

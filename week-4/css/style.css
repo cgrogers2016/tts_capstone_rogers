@@ -1,0 +1,135 @@
+/*Import Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+	/*RGBA has transparency*/
+	background-color:rgba(0,0,255,0.25);
+	/*HEX code has solid color */
+	background-color:#00ff00;
+	/*Some colors have words; W3schools has list of what is available*/
+	background-color:lightblue;
+	/*Background image*/
+	background-image: url(../img/familypicture.jpg);
+	/*Adjust background repeat*/
+	background-repeat: repeat-y;
+	background-repeat: repeat-x;
+	background-repeat: no-repeat;
+	/*Background size property */
+	background-size:600px;
+	background-size: cover;
+
+	/*Background position property*/
+	background-position: bottom right;
+	background-position: top right;
+	background-position: center;
+
+	/*Background scroll*/
+	background-attachment: fixed;
+
+}
+h3{
+	color:#ff0000;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+}
+h2{
+	background-color: white;
+	/*Makes the element 100% wide of the container*/
+	display:block;
+}
+
+strong{
+	background-color: blue;
+	/*Floats content from left to right. Keeps content size. 100% of content*/
+	display:inline
+}
+
+p{
+	/*Text color*/
+	color:#ffffff;
+	/*Font size*/
+	font-size: 24px;
+	/*Text Shadow*/
+				/* x  y    BLUR  Color*/
+	text-shadow: 2px  2px  3px   #000;
+
+	/*Line height*/
+	line-height: 40px;
+	line-height: 2em; 
+
+	/*Text alignment*/
+	text-align: right;
+	text-align: center;
+	text-align: left;
+
+	/*Display properties*/
+	display: inline;
+	display: none;
+	display: block;
+
+	/*Opacity*/
+	opacity: .75;
+}
+
+/*. means "Class". Class is a general classification of tags*/
+
+.intro{
+	background:black;
+
+	/*Padding*/
+	/*Options are: Top, Left, Bottom, Right*/
+	padding: 12px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+
+	/*Border Properties*/
+	/*Options are: Top, Left, Bottom, Right*/
+	border: solid 2px red;
+	border-top: dashed 3px green;
+	border-left: dotted 3px blue;
+	border-right: groove 10px yellow;
+
+	/*Corner Radius*/
+	/*Options are: Top, Left, Bottom, Right*/
+	border-radius: 20px;
+	border-bottom-right-radius: 0px;
+
+	/*Margin*/
+	/*Options are: Top, Left, Bottom, Right*/
+	margin: 12px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.intro-text{
+	font-size: 40px;
+	opacity: .5;
+}
+
+.big-letter{
+	font-size: 90px;
+	color: red;
+}
+
+/*# means ID, and ID is more specific than class*/
+#fade{
+	opacity: .25;
+}
+
+.container{
+	width: 100%;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+
+	/*Limits the width*/
+	max-width: 900px;
+
+	/*Shortcut for Top/Bottom, Left/Right*/
+	margin: 10px 20px;
+	/*Shortcut for all 4 different: starting at top go clockwise*/
+	margin: 10px 20px 30px 10px
+	/*Shortcut all 4: for margin, padding*/
+	margin: 10px;
+}

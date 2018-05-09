@@ -1,0 +1,127 @@
+<!-- Tells you this document is HTML 5. -->
+<!DOCTYPE html>
+
+<!-- Tells browser that we are starting an HTML document. -->
+<html>
+
+	<!-- Hidden information to help the browser -->
+	<head>
+
+		<!-- This is what shows up in the tab of your page -->
+		<title>
+			Courtney's first website
+		</title>
+
+		<!-- The meta name is what will show up as the first few words in a Google search. -->
+		<meta name="description" content="This is the description of your website. The first 150-160 characters are what will show up on a Google Search Results page when you publish it.">
+
+		<!-- The meta charset tells the computer which character encoding to use to read and interpret special characters (e.g. alphabet, numbers, symbols). -->
+		<meta charset="UTF-8">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="favicon/site.webmanifest">
+		<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+
+		<!-- This is external CSS: this is the BEST for more than one page websites-->
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- This is embedded CSS -->
+		<style>
+			h2{
+				color:red;
+			}
+		</style>
+	</head>
+
+	<!-- This starts what the user will see on the webpage. Viewable content. -->
+	<body>
+
+		<!-- This is the top of a website, typically used for navigation buttons. -->
+		<header>
+
+			<!-- This is inline CSS: Not recommended -->
+			<!-- The h1 tag creates the largest text (main idea) of a page. It should only be used once per page. -->
+			<h1 style="color:blue;">Earth</h1>
+
+			<!-- The h2 tag is the next level headline. -->
+			<h2>North America</h2>
+			<h2>South America</h2>
+
+			<!-- The strong tag is used for important text, makes text bold -->
+			<strong>Tetris</strong><strong>Tetris</strong>
+		</header>	
+
+		<!-- This is the main content section of a webpage. -->
+		<main class="container">
+
+			<!-- Div creates a box of editable content. The "class" called "intro" is editable in the linked style file.-->
+			<div class="intro">
+
+				<!-- The p tag is for a paragraph. -->
+				<p class="intro-text">
+
+					<!-- The span tag is to edit a smaller, more specific part of the text. It is like a more specific and inline div.-->
+					<span class="intro-big-letter">T</span>his is my first <strong>paragraph</strong> <em>Lorem</em> ipsum dolor sit 
+				</p>
+				<p class="intro-text">
+					<span class="intro-big-letter">T</span>his is my first <strong>paragraph</strong> <em>Lorem</em> ipsum dolor sit 
+				</p>
+				<p class="intro-text" id="fade">
+					<span class="intro-big-letter">T</span>his is my first <strong>paragraph</strong> <em>Lorem</em> ipsum dolor sit 
+				</p>
+			</div>
+
+			<!-- The br tag creates a line break in the text. -->
+			<br/>
+			<br/>
+				<p>
+				amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			<!-- The ol tag creates an ordered list, with numbers. -->
+			<ol>
+				<!-- The li tag creates the list item, and a number for it -->
+				<li>First Step</li>
+				<li>Second Step</li>
+				<li>Third Step</li>
+			</ol>
+
+			<!-- The ul tag creates an unordered list, or a bulleted list -->
+			<ul>
+				<li>milk</li>
+				<li>orange juice</li>
+				<li>eggs</li>
+			</ul>
+			<h3>United States</h3>
+			<h4>North Carolina</h4>
+			<h5>Raleigh</h5>
+			<hr/>
+			<h6>HQ Raleigh, Harrington Street</h6>
+
+			<!-- This allows you to insert an image from your computer. The width attribute should be a percentage to allow the picture to stretch with the window size. The alt tag provides text if the picture does not show, or for audio-impaired users - always include an alt tag. -->
+			<img src="img/image.jpg" width="30%" alt="Courtney Rogers"/>
+			
+			<!-- The a tag creates a hyperlink. href is the link, target tells the browser where to open this link (_new opens a new tab), and title creates a tooltip on the hover. -->
+			<a href="https://twitter.com/CourtneyGrayce" target="_new" title="Follow on Twitter">Follow on Twitter!</a>
+
+			<!-- The blockquote tag creates a section specifically formatted for quotes on your page. -->
+			<blockquote>
+				"I salsa your face"
+			</blockquote>
+		</main>
+
+		<!-- Still visible content, but at the footer of your page. -->
+		<footer>
+
+			<!-- &copy; creates a copyright symbol. The sub tag creates subscript. The sup tag creates superscript. The small tag creates smaller font. -->
+			<p>&copy; 2018 Courtney Rogers H<sub>2</sub>0 Enterprise <sup><small>&reg;</small></sup>Rogers</p>
+		</footer>
+	</body>
+</html>
