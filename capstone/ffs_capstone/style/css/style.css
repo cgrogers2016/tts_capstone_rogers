@@ -1,0 +1,19 @@
+/* line 1, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
+.mission {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+/* line 6, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
+.container-mission {
+  border: solid 2px orange;
+  padding: 20px;
+}
+
+/* line 11, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
+.col-4 {
+  border: solid 1px black;
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=../css/style.map */

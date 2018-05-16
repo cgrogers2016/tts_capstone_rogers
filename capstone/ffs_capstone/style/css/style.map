@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.scss"
+	],
+	"sourcesContent": [
+		".mission{\r\n  font-size: 18px;\r\n  font-family: sans-serif;\r\n}\r\n\r\n.container-mission{\r\n  border: solid 2px orange;\r\n  padding: 20px;\r\n}\r\n\r\n.col-4{\r\n  border: solid 1px black;\r\n  margin-left: 20px;\r\n}\r\n"
+	],
+	"mappings": ";AAAA,AAAA,QAAQ,CAAA;EACN,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,UAAW;CACzB;;;AAED,AAAA,kBAAkB,CAAA;EAChB,MAAM,EAAE,gBAAiB;EACzB,OAAO,EAAE,IAAK;CACf;;;AAED,AAAA,MAAM,CAAA;EACJ,MAAM,EAAE,eAAgB;EACxB,WAAW,EAAE,IAAK;CACnB",
+	"names": []
+}
