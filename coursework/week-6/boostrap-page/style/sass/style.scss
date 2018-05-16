@@ -1,3 +1,29 @@
 body{
-  background: blue;
+}
+
+// ###OLD EXAMPLE
+// .container{
+//   border: solid 1px black;
+// }
+// .container-fluid{
+//   border: solid 1px red;
+// }
+
+// ###SASS Optimized Example
+.border{
+  border: solid 2px black;
+  background: lightblue;
+}
+
+
+.container{
+  @extend .border;
+  &-fluid{
+    @extend .border;
+    border-color: red;
+  }
+}
+
+[class^="col"]{
+  @extend .border;
 }

@@ -1,6 +1,12 @@
-/* line 1, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/coursework/week-6/boostrap-page/style/sass/style.scss */
-body {
-  background: blue;
+/* line 13, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/coursework/week-6/boostrap-page/style/sass/style.scss */
+.border, .container, .container-fluid, [class^="col"] {
+  border: solid 2px black;
+  background: lightblue;
+}
+
+/* line 21, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/coursework/week-6/boostrap-page/style/sass/style.scss */
+.container-fluid {
+  border-color: red;
 }
 
 /*# sourceMappingURL=../css/style.map */
