@@ -5,8 +5,8 @@
 		"../sass/style.scss"
 	],
 	"sourcesContent": [
-		"body{\r\n}\r\n\r\n// ###OLD EXAMPLE\r\n// .container{\r\n//   border: solid 1px black;\r\n// }\r\n// .container-fluid{\r\n//   border: solid 1px red;\r\n// }\r\n\r\n// ###SASS Optimized Example\r\n.border{\r\n  border: solid 2px black;\r\n  background: lightblue;\r\n}\r\n\r\n\r\n.container{\r\n  @extend .border;\r\n  &-fluid{\r\n    @extend .border;\r\n    border-color: red;\r\n  }\r\n}\r\n\r\n[class^=\"col\"]{\r\n  @extend .border;\r\n}\r\n"
+		"\r\n// body{\r\n// }\r\n//\r\n// // ###OLD EXAMPLE\r\n// // .container{\r\n// //   border: solid 1px black;\r\n// // }\r\n// // .container-fluid{\r\n// //   border: solid 1px red;\r\n// // }\r\n//\r\n// // ###SASS Optimized Example\r\n// .border{\r\n//   border: solid 2px black;\r\n//   background: lightblue;\r\n// }\r\n//\r\n//\r\n// .container{\r\n//   @extend .border;\r\n//   &-fluid{\r\n//     @extend .border;\r\n//     border-color: red;\r\n//   }\r\n// }\r\n//\r\n// [class^=\"col-\"]{\r\n//   @extend .border;\r\n// }\r\n"
 	],
-	"mappings": ";AAYA,AAAA,OAAO,EAMP,AANA,UAMU,EAAV,AANA,gBAMU,GAQV,AAAA,AAdA,KAcC,EAAO,KAAK,AAAZ,EAdM;EACL,MAAM,EAAE,eAAgB;EACxB,UAAU,EAAE,SAAU;CACvB;;;AAGD,AAAA,gBAAU,CAED;EAEL,YAAY,EAAE,GAAI;CACnB",
+	"mappings": "",
 	"names": []
 }
