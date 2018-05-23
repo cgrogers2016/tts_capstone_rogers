@@ -1,3 +1,155 @@
-body{
-  background: blue;
+body {
+  background-color: darkgreen;
+}
+
+.timeline{
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.sky{
+  height: 600px;
+  width: 100%;
+  background-color: skyblue;
+  padding-top: 200px;
+  // hides elements that flow outside of the sky (div)
+  overflow: hidden;
+  animation-name: skylight;
+  @extend .timeline;
+}
+
+.sun{
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: sunset;
+  @extend .timeline;
+}
+
+@-webkit-keyframes sunset {
+// Sunrise
+  0% {
+    background-color: white;
+    transform:
+      scale(3,3)
+      translate(-50vw,300px);
+    box-shadow: 0px 0px 20px yellow;
+
+  }
+// Late morning
+  25% {
+    background-color: pink;
+  }
+// Noon
+  40% {
+    box-shadow: 0px 0px 20px yellow;
+    background-color: yellow;
+}
+  50%{
+    transform: translate(0px, 0px);
+    background-color: yellow;
+  }
+  60% {
+    box-shadow: 0px 0px 20px yellow;
+    background-color: yellow;
+  }
+// Sunset
+  75% {
+    background-color: violet;
+    box-shadow: 0px 0px 50px red;
+  }
+// Nighttime
+  100% {
+    transform:
+      translate(50vw,300px)
+      scale(2,2);
+    background-color: purple;
+    box-shadow: 0px 0px 50px purple;
+  }
+}
+
+@-webkit-keyframes skylight {
+// Sunrise
+  0% {
+background-color: lightblue;
+  }
+// Late morning
+  25% {
+
+  }
+// Noon
+  40% {
+    background-color: skyblue;
+}
+  50%{
+    background-color: skyblue;
+  }
+  60% {
+    background-color: skyblue;
+  }
+// Sunset
+  75% {
+    background-color: orange;
+  }
+// Nighttime
+  100% {
+    background-color: black;
+  }
+}
+
+/* CSS template for animation*/
+.exampleClass {
+  // links the .class to an animation timeline
+  // Must match the spelling of timeline (e.g. myFirstAnimation)
+  animation-name: myFirstAnimation;
+  // speed of the animation in seconds
+  animation-duration: 2s;
+  // how many times you want to repeat the animation
+  // can be a number of "infinite"
+  animation-iteration-count: infinite;
+  animation-iteration-count: 3;
+  // Defines the direction that you travel on the timeline
+    // normal: default direction (forward) (0->100, 0->100)
+    // reverse: 100->0, 100->0
+    // alternate: 0->100, 100->0
+    // alternate-reverse: 100->0, 0->100
+  animation-direction: reverse;
+  // Transforms by rotation from 0deg - 360deg (center is middle of line because it is block display)
+  transform: rotate(0deg);
+  // Transforms by moving on the x and y axis by pixels or %
+  transform: translate(50px, 50%);
+  // Transforms by scaling the object on the x and y axis
+  // Scale by units based on 1.
+    // ex: half scale = .5
+    // ex: no scale = 1
+    // ex: double size = 2
+  transform: scale(1.2,1);
+  text-align: center;
+  border: solid 1px black;
+}
+
+
+@-webkit-keyframes myFirstAnimation-2 {
+  0% {
+    // Transform: can animate or move an element
+    transform: rotate(0deg);
+    transform: translate(0px,0px);
+    transform: scale(1,1);
+  }
+
+  50% {
+    transform: rotate(180deg);
+    transform: translate(0px,10px);
+    transform: scale(2,2);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    transform: translate(0px,20px);
+    transform: scale(3,3);
+  }
 }

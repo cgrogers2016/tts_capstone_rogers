@@ -1,3 +1,122 @@
+/* line 1, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/coursework/week-7/css-animations/style/sass/style.scss */
 body {
-  background: blue;
+  background-color: darkgreen;
 }
+
+/* line 5, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/coursework/week-7/css-animations/style/sass/style.scss */
+.timeline, .sky, .sun {
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+/* line 11, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/coursework/week-7/css-animations/style/sass/style.scss */
+.sky {
+  height: 600px;
+  width: 100%;
+  background-color: skyblue;
+  padding-top: 200px;
+  overflow: hidden;
+  animation-name: skylight;
+}
+
+/* line 22, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/coursework/week-7/css-animations/style/sass/style.scss */
+.sun {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: sunset;
+}
+
+@-webkit-keyframes sunset {
+  0% {
+    background-color: white;
+    transform: scale(3, 3) translate(-50vw, 300px);
+    box-shadow: 0px 0px 20px yellow;
+  }
+  25% {
+    background-color: pink;
+  }
+  40% {
+    box-shadow: 0px 0px 20px yellow;
+    background-color: yellow;
+  }
+  50% {
+    transform: translate(0px, 0px);
+    background-color: yellow;
+  }
+  60% {
+    box-shadow: 0px 0px 20px yellow;
+    background-color: yellow;
+  }
+  75% {
+    background-color: violet;
+    box-shadow: 0px 0px 50px red;
+  }
+  100% {
+    transform: translate(50vw, 300px) scale(2, 2);
+    background-color: purple;
+    box-shadow: 0px 0px 50px purple;
+  }
+}
+
+@-webkit-keyframes skylight {
+  0% {
+    background-color: lightblue;
+  }
+  25% {
+  }
+  40% {
+    background-color: skyblue;
+  }
+  50% {
+    background-color: skyblue;
+  }
+  60% {
+    background-color: skyblue;
+  }
+  75% {
+    background-color: orange;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+/* CSS template for animation*/
+/* line 105, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/coursework/week-7/css-animations/style/sass/style.scss */
+.exampleClass {
+  animation-name: myFirstAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-iteration-count: 3;
+  animation-direction: reverse;
+  transform: rotate(0deg);
+  transform: translate(50px, 50%);
+  transform: scale(1.2, 1);
+  text-align: center;
+  border: solid 1px black;
+}
+
+@-webkit-keyframes myFirstAnimation-2 {
+  0% {
+    transform: rotate(0deg);
+    transform: translate(0px, 0px);
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: rotate(180deg);
+    transform: translate(0px, 10px);
+    transform: scale(2, 2);
+  }
+  100% {
+    transform: rotate(360deg);
+    transform: translate(0px, 20px);
+    transform: scale(3, 3);
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */
