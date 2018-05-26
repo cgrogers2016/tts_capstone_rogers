@@ -5,8 +5,8 @@
 		"../sass/style.scss"
 	],
 	"sourcesContent": [
-		".mission{\r\n  font-size: 18px;\r\n  font-family: sans-serif;\r\n}\r\n\r\n.container-mission{\r\n  border: solid 1px gray;\r\n  padding: 20px;\r\n  background-color: #f1f1f1;\r\n}\r\n\r\n.col-4{\r\n  border: solid 1px black;\r\n  margin-left: 20px;\r\n}\r\n\r\n.col-5{\r\n  font-size: 12px;\r\n}\r\n"
+		"body{\r\n\t// background-image: url(../../img/bg-10-full.jpg);\r\n\t// background-repeat: no-repeat;\r\n\t// background-size: 100% 100%;\r\n  background-color: #eee;\r\n}\r\n\r\n.mission{\r\n  font-size: 18px;\r\n  font-family: sans-serif;\r\n}\r\n\r\n.container-mission{\r\n  padding: 20px;\r\n}\r\n\r\n.col-5{\r\n  font-size: 12px;\r\n  margin-top: 20px;\r\n  margin-left: 10px;\r\n}\r\n\r\n.video{\r\n  margin-left: 20px;\r\n  margin-top: 20px;\r\n}\r\n\r\n.footer{\r\n  background-color: lightblue;\r\n}\r\n"
 	],
-	"mappings": ";AAAA,AAAA,QAAQ,CAAA;EACN,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,UAAW;CACzB;;;AAED,AAAA,kBAAkB,CAAA;EAChB,MAAM,EAAE,cAAe;EACvB,OAAO,EAAE,IAAK;EACd,gBAAgB,EAAE,OAAQ;CAC3B;;;AAED,AAAA,MAAM,CAAA;EACJ,MAAM,EAAE,eAAgB;EACxB,WAAW,EAAE,IAAK;CACnB;;;AAED,AAAA,MAAM,CAAA;EACJ,SAAS,EAAE,IAAK;CACjB",
+	"mappings": ";AAAA,AAAA,IAAI,CAAA;EAIF,gBAAgB,EAAE,IAAK;CACxB;;;AAED,AAAA,QAAQ,CAAA;EACN,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,UAAW;CACzB;;;AAED,AAAA,kBAAkB,CAAA;EAChB,OAAO,EAAE,IAAK;CACf;;;AAED,AAAA,MAAM,CAAA;EACJ,SAAS,EAAE,IAAK;EAChB,UAAU,EAAE,IAAK;EACjB,WAAW,EAAE,IAAK;CACnB;;;AAED,AAAA,MAAM,CAAA;EACJ,WAAW,EAAE,IAAK;EAClB,UAAU,EAAE,IAAK;CAClB;;;AAED,AAAA,OAAO,CAAA;EACL,gBAAgB,EAAE,SAAU;CAC7B",
 	"names": []
 }

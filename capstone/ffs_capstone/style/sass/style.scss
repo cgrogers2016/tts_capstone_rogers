@@ -1,19 +1,30 @@
+body{
+	// background-image: url(../../img/bg-10-full.jpg);
+	// background-repeat: no-repeat;
+	// background-size: 100% 100%;
+  background-color: #eee;
+}
+
 .mission{
   font-size: 18px;
   font-family: sans-serif;
 }
 
 .container-mission{
-  border: solid 1px gray;
   padding: 20px;
-  background-color: #f1f1f1;
-}
-
-.col-4{
-  border: solid 1px black;
-  margin-left: 20px;
 }
 
 .col-5{
   font-size: 12px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.video{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.footer{
+  background-color: lightblue;
 }
