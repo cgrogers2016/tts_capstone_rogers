@@ -13,8 +13,10 @@
   <link rel="icon" href="img/logonew.png" type="image/png" sizes="16x16">
   <meta name="description" content="Food for the Summer is a Free and Reduced Price Summer Program for kids in Chapel Hill and Carrboro, North Carolina." </head>
   <meta property="og:image" content="http://courtneyrogers.org/projects/ffs_capstone/img/ffshead.png" />
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
   <body>
+    <!-- Navigation Bar -->
     <header class="header">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <img src="img/logonew.png" alt="FFS Logo" width="5%">
@@ -26,7 +28,6 @@
             <li class="nav-item active">
               <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="http://courtneyrogers.org/projects/week-5/week-5" target="_new">About Us</a>
             </li>
@@ -60,87 +61,102 @@
     </header>
 
     <main>
+      <!-- Alert for daily updates -->
       <div class="alert alert-info">
         <strong>Update for July 3</strong> We are serving at all sites today.
       </div>
+
+      <!-- Main title and page intro -->
       <div class="jumbotron jumbotron-fluid">
-        <div class="container-title">
-          <h1 class="display-4">Food for the Summer</h1>
-          <p class="lead">Together, we can feed our children.</p>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <div class="container-title">
+              <center>
+                <h1 class="display-4" style="font-family: 'indie flower'">Food for the Summer</h1>
+                <p class="lead">Together, we can feed our children.</p>
+              </center>
+            </div>
+            <div class="col-2"></div>
+          </div>
         </div>
       </div>
 
-
-      <div class="container-mission">
-        <p style="text-align:center" ; class="mission"> Food for the Summer's mission is to ensure that all children in Chapel Hill and Carrboro have access to nutritious food during the summer.</p>
-        <p class="mission-sub">For the eleven weeks that school is out, summer becomes the hardest part of the year for many of the 3,432 children in Chapel Hill and Carrboro who rely on school lunches for their daily nutritious meal. Last summer the Food for the Summer Partnership
-          worked to close this “Summer Meal Gap” by providing weekday lunches for children at sixteen walkable meal sites throughout our community. With the help of our sponsors and a network of volunteers, Food for the Summer provided 45,978 meals in
-          2017 as well as academically and physically enriching activities for our children.
-        </p>
+      <!-- Main text: mission, etc. -->
+      <div class="container">
+        <div class="row">
+          <div class="container-mission">
+            <p style="text-align:center" class="mission"> Food for the Summer's mission is to ensure that all children in Chapel Hill and Carrboro have access to nutritious food during the summer.</p>
+            <p class="mission-sub">For the eleven weeks that school is out, summer becomes the hardest part of the year for many of the 3,432 children in Chapel Hill and Carrboro who rely on school lunches for their daily nutritious meal. Last summer the Food for the Summer
+              Partnership worked to close this “Summer Meal Gap” by providing weekday lunches for children at sixteen walkable meal sites throughout our community. With the help of our sponsors and a network of volunteers, Food for the Summer provided
+              45,978 meals in 2017 as well as academically and physically enriching activities for our children.
+            </p>
+          </div>
+        </div>
       </div>
       <hr>
       <br/>
 
+      <!-- Cards with categories for more info -->
       <div class="container">
-        <div class="row">
-          <div class="card-deck">
-              <div class="col-4">
-              <div class="card">
-              <img class="card-img-top" src="img/foodsites.png" alt="Card image cap" height="200px">
-              <div class="card-body">
-                <h5 class="card-title">Meal Sites</h5>
-                <p class="card-text">Our Open Sites are sites where children aged 0 to 18 years old are welcome to eat a Food for the Summer meal Monday-Friday, excluding holidays.</p>
-                <a href="#" target=_new class="btn btn-info">Find Sites</a>
-              </div>
+        <div class="card-deck">
+          <!-- Meal Sites card -->
+          <div class="card">
+            <img class="card-img-top" src="img/foodsites.PNG" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Meal Sites</h5>
+              <p class="card-text">Our Open Sites are sites where children aged 0 to 18 years old are welcome to eat a Food for the Summer meal Monday-Friday, excluding holidays.</p>
+              <a href="#" target=_new class="btn btn-info">Find Sites</a>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card">
-              <img class="card-img-top" src="img/reading.png" alt="Card image cap" height="200px">
-              <div class="card-body">
-                <h5 class="card-title">Sponsorships</h5>
-                <p class="card-text">Each summer we ask local community organizations to join our partnership through our sponsorship program. Learn more about how you can help.</p>
-                <a href="#" target=_new class="btn btn-info">Become a Sponsor</a>
-              </div>
+          <!-- Sponsorship card -->
+          <div class="card">
+            <img class="card-img-top" src="img/reading.PNG" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Sponsorship</h5>
+              <p class="card-text">Each summer we ask local community organizations to join our partnership through our sponsorship program. Learn more about how you can help.</p>
+              <a href="#" target=_new class="btn btn-info">Become a Sponsor</a>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card">
-              <img class="card-img-top" src="img/thankyou.png" alt="Card image cap" height="200px">
-              <div class="card-body">
-                <h5 class="card-title">Volunteer</h5>
-                <p class="card-text">Food for the Summer relies on a network of volunteers to bring food to each of our sites. Consider helping us for a day, a week, or the whole summer!</p>
-                <a href="#" target=_new class="btn btn-info">Become a Volunteer</a>
-              </div>
+          <!-- Volunteer card -->
+          <div class="card">
+            <img class="card-img-top" src="img/thankyou.PNG" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Volunteer</h5>
+              <p class="card-text">Food for the Summer relies on a network of volunteers to bring food to each of our sites. Consider helping us for a day, a week, or the whole summer!</p>
+              <a href="#" target=_new class="btn btn-info">Become a Volunteer</a>
             </div>
           </div>
-        </div>
         </div>
       </div>
 
-          <hr>
-          <div class="container">
-            <h4>Learn more about Food for the Summer.</h4>
-            <div class="row">
-              <div class="video">
-                <iframe width="640" height="360" src="https://www.youtube.com/embed/NxFlZ_8KNCA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+      <hr>
+      <!-- Social Media sources -->
+      <div class="container">
+        <h4>Learn more about Food for the Summer.</h4>
+        <div class="row">
+          <!-- YouTube -->
+          <div class="video">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/NxFlZ_8KNCA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
               </iframe>
-              </div>
-              <div class="col-5 twitter">
-                <a class="twitter-timeline" data-height="500" href="https://twitter.com/food4thesummer?ref_src=twsrc%5Etfw">Tweets by food4thesummer</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              </div>
-            </div>
           </div>
+          <!-- Twitter -->
+          <div class="col-5 twitter">
+            <a class="twitter-timeline" data-height="500" href="https://twitter.com/food4thesummer?ref_src=twsrc%5Etfw">Tweets by food4thesummer</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+      </div>
     </main>
 
+      <!-- Footer -->
     <footer class="footer">
       <div class="container-fluid">
-
         <div class="row">
           <div class="col-4 footer-logo">
             <img src="img/logonew.png" alt="FFS Logo" width="20%" />
           </div>
+          <!-- Contact Information -->
           <div class="col-4">
             <center>
               <h5>Contact Us</h5>

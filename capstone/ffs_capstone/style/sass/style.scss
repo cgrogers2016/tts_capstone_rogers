@@ -5,6 +5,10 @@ body{
   background-color: #eee;
 }
 
+p{
+  font-family: sans-serif, verdana;
+}
+
 .jumbotron-fluid{
   background-image: url(../../img/ffshead.png);
   background-repeat: no-repeat;
@@ -15,12 +19,12 @@ body{
 .container-title{
   background-color: rgba(255, 255, 255, .8);
   padding: 20px 10px 20px 10px;
+  margin: 20px 10px 20px 10px;
 }
 
 .mission{
   font-size: 18px;
   text-align: center;
-  font-family: sans-serif;
 }
 
 .mission-sub{
@@ -29,7 +33,7 @@ body{
 }
 
 .container-mission{
-  padding: 10px 50px 10px 50px;
+  padding: 50px 50px 50px 50px;
 }
 
 .col-5{
@@ -43,7 +47,7 @@ body{
 }
 
 .footer{
-  background-color: lighten(yellow, 20%);
+  background-color: lighten(yellow, 30%);
   padding: 20px;
   background-size: cover;
 }
