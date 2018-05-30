@@ -18,7 +18,7 @@
   <body>
     <!-- Navigation Bar -->
     <header class="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <img src="img/logonew.png" alt="FFS Logo" width="5%">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -136,20 +136,22 @@
         <h4>Learn more about Food for the Summer.</h4>
         <div class="row">
           <!-- YouTube -->
-          <div class="video">
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/NxFlZ_8KNCA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-              </iframe>
+
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NxFlZ_8KNCA"></iframe>
           </div>
-          <!-- Twitter -->
-          <div class="col-5 twitter">
-            <a class="twitter-timeline" data-height="500" href="https://twitter.com/food4thesummer?ref_src=twsrc%5Etfw">Tweets by food4thesummer</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          </div>
+
         </div>
+        <!-- Twitter -->
+        <div class="col-5 twitter">
+          <a class="twitter-timeline" data-height="500" href="https://twitter.com/food4thesummer?ref_src=twsrc%5Etfw">Tweets by food4thesummer</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
       </div>
     </main>
 
-      <!-- Footer -->
+    <!-- Footer -->
     <footer class="footer">
       <div class="container-fluid">
         <div class="row">
