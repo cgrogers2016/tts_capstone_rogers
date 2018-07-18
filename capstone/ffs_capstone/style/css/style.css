@@ -4,62 +4,66 @@ body {
 }
 
 /* line 8, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
+p {
+  font-family: sans-serif, verdana;
+}
+
+/* line 12, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
 .jumbotron-fluid {
   background-image: url(../../img/ffshead.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
+  background-size: 100%;
 }
 
-/* line 15, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
+/* line 18, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
 .container-title {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px 10px 20px 10px;
+  margin: 20px 10px 20px 10px;
 }
 
-/* line 20, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
+/* line 24, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
 .mission, .mission-sub {
   font-size: 18px;
   text-align: center;
-  font-family: sans-serif;
 }
 
-/* line 26, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
+/* line 29, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
 .mission-sub {
   font-size: 14px;
 }
 
-/* line 31, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
+/* line 34, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
 .container-mission {
-  padding: 10px 50px 10px 50px;
+  padding: 50px 50px 50px 50px;
 }
 
-/* line 35, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
+/* line 38, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
 .col-5 {
   font-size: 12px;
   margin-top: 20px;
   margin-left: 10px;
 }
 
-/* line 41, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
+/* line 44, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
 .video {
   margin-top: 20px;
 }
 
-/* line 45, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
+/* line 48, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
 .footer {
   background-color: #ffff99;
   padding: 20px;
   background-size: cover;
 }
 
-/* line 51, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
+/* line 54, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
 .btn-primary {
   border-radius: 25px;
   font-size: 20px;
 }
 
-/* line 56, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
+/* line 59, C:/Users/Courtney/Documents/Applications/GitHub/tts_capstone/capstone/ffs_capstone/style/sass/style.scss */
 .footer-logo {
   margin-left: 20px;
 }
